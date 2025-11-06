@@ -1,0 +1,59 @@
+:root {
+    --background-color: #fffde7;
+    --text-color: #062300;
+    --accent-color: #a542f1;
+    --header-font: 'Georgia', serif;
+    --body-font: 'Arial', sans-serif;
+    --button-bg-color: #a542f1;
+    --button-text-color: #ffffff;
+    --header-footer-bg-color: #c7e8c8;
+}
+
+body {
+    margin: 0;
+    font-family: var(--body-font);
+    background-color: var(--background-color);
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-size: 16px;
+}
+
+
+.logo {
+    width: 50px;
+}
+
+header, footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: var(--header-footer-bg-color);
+}
+
+header {
+    height: 80px;
+}
+
+header a, footer a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 1.3em;
+}
+
+.nav a, .media-links a {
+    margin: 0 15px;
+}
+
+section {
+    border: 1px solid black;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
