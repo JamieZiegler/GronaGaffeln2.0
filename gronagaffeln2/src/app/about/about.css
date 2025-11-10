@@ -48,7 +48,7 @@ section {
 }
 
 .hero-section {
-    background-image: url('./assets/home/hero_image.png');
+    background-image: url('../../../public/home/hero_image.png');
     height: 90vh;
     width: 100%;
     background-size: cover;
@@ -74,7 +74,7 @@ section {
 
 
 .leaf-overlay {
-    background-image: url('./assets/about/leaf-bg.svg');
+    background-image: url('../../../public/about/leaf-bg.svg');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
