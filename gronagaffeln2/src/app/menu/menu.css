@@ -1,0 +1,30 @@
+.menu-container, .menu-item, .icons-container, .icon, .menu-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons-container {
+    flex-direction: row;
+}
+
+.menu-container, .menu-item, .icon {
+    flex-direction: column;
+}
+
+.icon-img {
+    width: 20%;
+}
+
+.menu-icon-img {
+    width: 45px;
+    margin-top: 10px;
+}
+
+.menu-description {
+    width: 50%;
+}
+
+.menu-img {
+    width: 50%;
+}
